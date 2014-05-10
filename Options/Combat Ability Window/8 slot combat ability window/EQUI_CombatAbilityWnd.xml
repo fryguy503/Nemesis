@@ -1,33 +1,28 @@
-<?xml version = "1.0"?>
-<!-- NemesisUI v.06 (Beta), Edited using Notepad Version 5.1, by Shaidtan, Quellious Server -->
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns:dt="EverQuestDataTypes" xmlns="EverQuestData"/>
 	<TextureInfo item="nemesis_combatability_02.tga">
 		<Size>
 			<CX>128</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-
 	<Ui2DAnimation item="nemesis_combatability02">
 		<Frames>
-		<Texture>nemesis_combatability_02.tga</Texture>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>122</CX>
-			<CY>246</CY>
-		</Size>
-		<Hotspot>
-			<X>0</X>
-			<Y>0</Y>
-		</Hotspot>
+			<Texture>nemesis_combatability_02.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>122</CX>
+				<CY>246</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
 		</Frames>
 	</Ui2DAnimation>
-
 	<StaticAnimation item="nemesis_combatability_02">
 		<ScreenID>nemesis_combatability_02</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -41,9 +36,7 @@
 		</Size>
 		<Animation>nemesis_combatability02</Animation>
 	</StaticAnimation>
-
-
-	<Ui2DAnimation item = "A_CombatButton1Normal">
+	<Ui2DAnimation item="A_CombatButton1Normal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -62,7 +55,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton1Pressed">
+	<Ui2DAnimation item="A_CombatButton1Pressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -81,7 +74,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton1Flyby">
+	<Ui2DAnimation item="A_CombatButton1Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -100,7 +93,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton1PressedFlyby">
+	<Ui2DAnimation item="A_CombatButton1PressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -119,7 +112,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton1Disabled">
+	<Ui2DAnimation item="A_CombatButton1Disabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -138,8 +131,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "A_CombatButton2Normal">
+	<Ui2DAnimation item="A_CombatButton2Normal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -158,7 +150,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton2Pressed">
+	<Ui2DAnimation item="A_CombatButton2Pressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -177,7 +169,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton2Flyby">
+	<Ui2DAnimation item="A_CombatButton2Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -196,7 +188,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton2PressedFlyby">
+	<Ui2DAnimation item="A_CombatButton2PressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -215,7 +207,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton2Disabled">
+	<Ui2DAnimation item="A_CombatButton2Disabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -234,8 +226,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "A_CombatButton3Normal">
+	<Ui2DAnimation item="A_CombatButton3Normal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -254,7 +245,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton3Pressed">
+	<Ui2DAnimation item="A_CombatButton3Pressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -273,7 +264,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton3Flyby">
+	<Ui2DAnimation item="A_CombatButton3Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -292,7 +283,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton3PressedFlyby">
+	<Ui2DAnimation item="A_CombatButton3PressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -311,7 +302,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton3Disabled">
+	<Ui2DAnimation item="A_CombatButton3Disabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -330,8 +321,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "A_CombatButton4Normal">
+	<Ui2DAnimation item="A_CombatButton4Normal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -350,7 +340,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton4Pressed">
+	<Ui2DAnimation item="A_CombatButton4Pressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -369,7 +359,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton4Flyby">
+	<Ui2DAnimation item="A_CombatButton4Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -388,7 +378,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton4PressedFlyby">
+	<Ui2DAnimation item="A_CombatButton4PressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -407,7 +397,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton4Disabled">
+	<Ui2DAnimation item="A_CombatButton4Disabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -426,8 +416,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "A_CombatButton5Normal">
+	<Ui2DAnimation item="A_CombatButton5Normal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -446,7 +435,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton5Pressed">
+	<Ui2DAnimation item="A_CombatButton5Pressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -465,7 +454,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton5Flyby">
+	<Ui2DAnimation item="A_CombatButton5Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -484,7 +473,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton5PressedFlyby">
+	<Ui2DAnimation item="A_CombatButton5PressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -503,7 +492,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton5Disabled">
+	<Ui2DAnimation item="A_CombatButton5Disabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -522,8 +511,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "A_CombatButton6Normal">
+	<Ui2DAnimation item="A_CombatButton6Normal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -542,7 +530,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton6Pressed">
+	<Ui2DAnimation item="A_CombatButton6Pressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -561,7 +549,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton6Flyby">
+	<Ui2DAnimation item="A_CombatButton6Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -580,7 +568,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton6PressedFlyby">
+	<Ui2DAnimation item="A_CombatButton6PressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -599,7 +587,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton6Disabled">
+	<Ui2DAnimation item="A_CombatButton6Disabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces06.tga</Texture>
@@ -618,7 +606,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton7Normal">
+	<Ui2DAnimation item="A_CombatButton7Normal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces07.tga</Texture>
@@ -637,7 +625,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton7Pressed">
+	<Ui2DAnimation item="A_CombatButton7Pressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces07.tga</Texture>
@@ -656,7 +644,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton7Flyby">
+	<Ui2DAnimation item="A_CombatButton7Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces07.tga</Texture>
@@ -675,7 +663,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton7PressedFlyby">
+	<Ui2DAnimation item="A_CombatButton7PressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces07.tga</Texture>
@@ -694,7 +682,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton7Disabled">
+	<Ui2DAnimation item="A_CombatButton7Disabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces07.tga</Texture>
@@ -713,8 +701,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-
-	<Ui2DAnimation item = "A_CombatButton8Normal">
+	<Ui2DAnimation item="A_CombatButton8Normal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces07.tga</Texture>
@@ -733,7 +720,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton8Pressed">
+	<Ui2DAnimation item="A_CombatButton8Pressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces07.tga</Texture>
@@ -752,7 +739,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton8Flyby">
+	<Ui2DAnimation item="A_CombatButton8Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces07.tga</Texture>
@@ -771,7 +758,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton8PressedFlyby">
+	<Ui2DAnimation item="A_CombatButton8PressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces07.tga</Texture>
@@ -790,7 +777,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CombatButton8Disabled">
+	<Ui2DAnimation item="A_CombatButton8Disabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces07.tga</Texture>
@@ -809,8 +796,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-
-	<Button item = "CAW_Button1">
+	<Button item="CAW_Button1">
 		<ScreenID>CAW_Button1</ScreenID>
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
@@ -840,8 +826,7 @@
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
-	<Button item = "CAW_Button2">
+	<Button item="CAW_Button2">
 		<ScreenID>CAW_Button2</ScreenID>
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
@@ -871,8 +856,7 @@
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
-	<Button item = "CAW_Button3">
+	<Button item="CAW_Button3">
 		<ScreenID>CAW_Button3</ScreenID>
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
@@ -902,8 +886,7 @@
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
-	<Button item = "CAW_Button4">
+	<Button item="CAW_Button4">
 		<ScreenID>CAW_Button4</ScreenID>
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
@@ -933,8 +916,7 @@
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
-	<Button item = "CAW_Button5">
+	<Button item="CAW_Button5">
 		<ScreenID>CAW_Button5</ScreenID>
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
@@ -964,8 +946,7 @@
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
-	<Button item = "CAW_Button6">
+	<Button item="CAW_Button6">
 		<ScreenID>CAW_Button6</ScreenID>
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
@@ -995,8 +976,7 @@
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
-	<Button item = "CAW_Button7">
+	<Button item="CAW_Button7">
 		<ScreenID>CAW_Button7</ScreenID>
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
@@ -1026,8 +1006,7 @@
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
-	<Button item = "CAW_Button8">
+	<Button item="CAW_Button8">
 		<ScreenID>CAW_Button8</ScreenID>
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
@@ -1057,8 +1036,7 @@
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
-	<Button item = "CAW_CombatEffectButton">
+	<Button item="CAW_CombatEffectButton">
 		<ScreenID>CAW_CombatEffectButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -1074,7 +1052,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Left-click to remove this effect</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
 			<NormalDecal>BuffIcons</NormalDecal>
@@ -1088,8 +1065,7 @@
 			<CY>20</CY>
 		</DecalSize>
 	</Button>
-
-	<Label item ="CAW_CombatEffectLabel">
+	<Label item="CAW_CombatEffectLabel">
 		<ScreenID>CAW_CombatEffectLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -1102,19 +1078,16 @@
 		</Size>
 		<Text>No Effect</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
-
-	<Gauge item = "CAW_CombatEffectTimeRemainingGauge">
+	<Gauge item="CAW_CombatEffectTimeRemainingGauge">
 		<ScreenID>CAW_CombatEffectTimeRemainingGauge</ScreenID>
-
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>6</X>
@@ -1124,28 +1097,22 @@
 			<CX>108</CX>
 			<CY>12</CY>
 		</Size>
-	
 		<GaugeOffsetY>0</GaugeOffsetY>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-
 		<FillTint>
-				<R>192</R>
-				<G>32</G>
-				<B>64</B>
+			<R>192</R>
+			<G>32</G>
+			<B>64</B>
 		</FillTint>
-
 		<LinesFillTint>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
 		</LinesFillTint>
-
 		<DrawLinesFill>false</DrawLinesFill>
-
 		<EQType>26</EQType>
-
 		<GaugeDrawTemplate>
 			<Background>A_GaugeBackground</Background>
 			<Fill>A_GaugeFill</Fill>
@@ -1154,10 +1121,8 @@
 			<EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
 			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
-	
 	</Gauge>
-
-	<Button item = "CAW_OpenCombatSkillSelectWnd">
+	<Button item="CAW_OpenCombatSkillSelectWnd">
 		<ScreenID>CAW_OpenCombatSkillSelectWnd</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -1183,10 +1148,8 @@
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
-	<Gauge item = "Player_Endurance">
+	<Gauge item="Player_Endurance">
 		<ScreenID>PlayerEndurance</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>6</X>
@@ -1200,16 +1163,15 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<FillTint>
-				<R>255</R>
-				<G>255</G>
-				<B>0</B>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
 		</FillTint>
 		<LinesFillTint>
-				<R>0</R>
-				<G>220</G>
-				<B>0</B>
+			<R>0</R>
+			<G>220</G>
+			<B>0</B>
 		</LinesFillTint>
 		<DrawLinesFill>false</DrawLinesFill>
 		<EQType>3</EQType>
@@ -1222,12 +1184,9 @@
 			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
-
-
-	<Label item ="CAW_CurrentEnd">
+	<Label item="CAW_CurrentEnd">
 		<ScreenID>CAW_CurrentEnd</ScreenID>
 		<EQType>126</EQType>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
 		<Location>
@@ -1240,19 +1199,17 @@
 		</Size>
 		<Text>00000</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>0</B>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 		<AlignLeft>false</AlignLeft>
 	</Label>
-
-	<Label item ="CAW_EndDivider">
+	<Label item="CAW_EndDivider">
 		<ScreenID>CAW_EndDivider</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
 		<Location>
@@ -1265,19 +1222,18 @@
 		</Size>
 		<Text>/</Text>
 		<TextColor>
-				<R>200</R>
-				<G>200</G>
-				<B>200</B>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 		<AlignLeft>true</AlignLeft>
 	</Label>
-	<Label item ="CAW_MaxEnd">
+	<Label item="CAW_MaxEnd">
 		<ScreenID>End_MaxEnd</ScreenID>
 		<EQType>127</EQType>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
 		<Location>
@@ -1290,17 +1246,16 @@
 		</Size>
 		<Text>00000</Text>
 		<TextColor>
-				<R>0</R>
-				<G>127</G>
-				<B>160</B>
+			<R>0</R>
+			<G>127</G>
+			<B>160</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 		<AlignLeft>true</AlignLeft>
 	</Label>
-
-	<Screen item = "CombatAbilityWnd">
+	<Screen item="CombatAbilityWnd">
 		<ScreenID/>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
@@ -1340,5 +1295,4 @@
 		<Pieces>CAW_EndDivider</Pieces>
 		<Pieces>CAW_MaxEnd</Pieces>
 	</Screen>
-
 </XML>
