@@ -634,7 +634,7 @@
 		</Location>
 		<Size>
 			<CX>23</CX>
-			<CY>23</CY>
+			<CY>26</CY>
 		</Size>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
@@ -690,7 +690,7 @@
 		</Location>
 		<Size>
 			<CX>23</CX>
-			<CY>23</CY>
+			<CY>26</CY>
 		</Size>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
